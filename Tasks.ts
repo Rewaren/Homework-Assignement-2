@@ -51,3 +51,10 @@ let insertedNumber = 25;
 let convertedNumberString = Number(insertedNumber);
 console.log("Initial inserted number: ", insertedNumber)
 console.log("Converted Number: " + convertedNumberString);
+
+// Task 10: Cleanup string, and display first and last character
+let someText = " Red flowers are beautiful!  "
+let trimedText = someText.trim()
+console.log("Sentence with removed extra spaces: " + trimedText);
+console.log("First character is: " + trimedText.charAt(0));
+console.log("Last character is: " + trimedText.charAt(trimedText.length - 1));
