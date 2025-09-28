@@ -9,3 +9,8 @@ let height = 1.65;
 let weight = 50;
 let bmi = weight / (height * height)
 console.log ("Bmi is ", bmi);
+
+// Task 3: Convert temperature from Celsius to Fahrenheit
+let celsius = 20;
+let fahrenheit = (9/5) * celsius + 32;
+console.log("C is equal to " + fahrenheit + "F");
