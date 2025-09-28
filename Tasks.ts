@@ -14,3 +14,14 @@ console.log ("Bmi is ", bmi);
 let celsius = 20;
 let fahrenheit = (9/5) * celsius + 32;
 console.log("C is equal to " + fahrenheit + "F");
+
+// Task 4: Check age with boolean
+let age = 25;
+let isAdult = age >= 18;
+console.log("Is adult: ", isAdult);
+
+// Task 5: Combine two strings
+let firstName = "Mari";
+let lastName = "Mets";
+let fullName = firstName + " " + lastName;
+console.log("Full name is: " + fullName);
