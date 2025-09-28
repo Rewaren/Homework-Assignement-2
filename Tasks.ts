@@ -25,3 +25,18 @@ let firstName = "Mari";
 let lastName = "Mets";
 let fullName = firstName + " " + lastName;
 console.log("Full name is: " + fullName);
+
+// Task 6: Check age with strict equality
+let userAge = 15;
+let requiredAge = 18;
+let hasAccess = userAge === requiredAge;
+console.log(hasAccess);
+
+// Task 7: Check strict equality with different types
+let userInput = '18';
+let actualAge = 18;
+let isEqualLoose = userInput == actualAge;
+console.log(isEqualLoose);
+let isEqualStrict = userInput === actualAge;
+console.log(isEqualStrict);
+
