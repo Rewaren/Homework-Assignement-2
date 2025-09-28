@@ -40,3 +40,14 @@ console.log(isEqualLoose);
 let isEqualStrict = userInput === actualAge;
 console.log(isEqualStrict);
 
+// Task 8: Convert string to number
+let stringNumber = "18";
+let convertedStringNumber = Number(stringNumber);
+console.log("String value is: ", stringNumber);
+console.log("Converted from String to Number: " + convertedStringNumber);
+
+//Task 9: Convert number to string
+let insertedNumber = 25;
+let convertedNumberString = Number(insertedNumber);
+console.log("Initial inserted number: ", insertedNumber)
+console.log("Converted Number: " + convertedNumberString);
