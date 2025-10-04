@@ -34,3 +34,4 @@ const product1 = new Product("Apples", 2,5);
 console.log(product1.isInStock());
 const product2 = new Product("Oranges", 6,0);
 console.log(product2.isInStock());
+
